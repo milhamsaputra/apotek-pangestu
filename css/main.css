@@ -1,0 +1,262 @@
+@charset "utf-8";
+#kotakUtama{
+    background-color: #FFF;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+#kotakheader{
+    border-bottom:1px solid #018ba6;
+    width: 100%;
+    height: 40%;
+    background:url(../img/banner3.jpg);
+    background-size: cover;
+}
+.kotaktgl{
+    width: 22%;
+    margin-left: 3%;
+    height: auto;
+    padding: 1%;
+    background-color: #2E92CF;
+    color: #FFF;
+    font-size: 30px;
+    border:2px solid    #0999e1;
+    border-top:0px solid transparent;     
+}
+.kotaktgl2{
+    width: 100%;
+    height: 25px;
+    background-color: #12f644;
+    border-top:3px solid #2E92CF;
+}
+.banner1{
+    width: 75%;
+    min-width: 270px;
+    height: auto;
+    float: left;
+}
+.banner2{
+    width: 25%;  
+    min-width: 150px;
+    height: auto;
+    line-height: 1.8em;
+    float: left;
+    text-align: right;
+}
+#garis{
+     width: 100%;
+    height
+    :100px;
+    border-bottom: 1px solid #AAA;
+}
+.judul1{
+    background: #555;
+    color:#FFF;
+    text-align: center;
+    padding:0.5%;
+    margin: auto;
+}
+.judul2{
+    font-size: 300%;
+    color: #333;
+}
+#boxlogin{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+#boxlogin2{
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    margin: auto;
+    font-family: 'Segoe UI';
+}
+#boxlogin2-border{
+    width: 28%;
+    background-color: #FFF;
+    min-width: 240px;
+    margin: auto;
+    margin-top: 8%;
+    border: 1px solid #999;
+    padding: 1.5%;
+    border-radius:4px;
+}
+.btnlogin{
+    width: 100%;
+    height: 30%;
+    min-height: 30px;
+    background: #09f;
+    color: #FFF;
+    padding: 4%;
+    font-size: 130%;
+    border: 0px solid #09f111;
+    font-family: 'Segoe UI';
+    transition:all ease 0.1s;
+    cursor: pointer;
+}
+.btnlogin:hover{
+    background:green;
+}
+.btnlogin:active{
+    background:#333;
+}
+.txtlogin{
+    width: 90%;
+    border: 0px;
+    border-bottom: 1px solid #09f;
+    font-size:100%; 
+    padding: 2%;
+}
+#boxkonten{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+#tentang1{
+    width: 30%;
+    height: 100%;
+    float: left;
+    min-width: 240px;
+}
+#tentang2{
+    width: 60%;
+    height: 100%;
+    float: left;
+    min-width: 240px;
+    padding: 3%;
+}
+#konten1{
+    width: 63%;
+    height: 100%;
+    float: left;
+    min-width: 240px;
+    padding-left: 30px;
+}
+#konten2{
+    width: 28%;
+    height: 100%;
+    float: left;
+    background-color: #EEE;
+    min-width: 240px;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 2%;
+}
+#konten3{
+    width: 70%;
+    height: 100%;
+    float: left;
+    min-width: 100px;
+}
+#konten4{
+    width: 30%;
+    height: 100%;
+    float: left;
+    min-width: 100px;
+    padding-right:2%;
+}
+#konten5{
+    width: 46%;
+    float: left;
+    padding: 1%;
+}
+.kontenstok{
+    height: 250px;
+    border:1px solid #888;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 10px;
+}
+#footer1{
+    border-top:1px solid #018ba6;
+    width: 100%;
+    height: 18%;
+    background-color:#09f;
+    margin-top: 4%;
+    color: #fff;
+}
+#footer2{
+    width: 100%;
+    height: 7%;
+    background-color: #222;
+    color: #FFF;
+    text-align: center;    
+    margin-top: 4%;
+    padding-top: 1%;
+}
+.admin-kotak-menu{
+    width:18%;
+    height: 100%;
+    border-right:1px solid #CCC;
+}
+.fixed{
+    position: fixed;
+}
+#admin-container-header1{
+    margin-left: 18%;
+    margin-top: -20px;
+    transition:all ease 1s;
+}
+#admin-Header1{
+    width: 100%;
+    height: 60px;
+    background: #09f;
+}
+.admin-header2{
+    width: 100%;
+    height: auto;
+    background: #EEE;
+    color: #09f;
+    padding: 1px;
+}
+#admin-kotak-utama{
+    width: 82%;
+    height: auto;
+    background: #FFF;
+    margin-left: 18%;
+}
+#admin-kotakI{
+    width: 23%;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 160%;
+    padding: 0.5%;
+    margin-left: -10px;
+}
+#admin-konten{
+    width:90%;
+    color: #333;
+    margin: auto;
+    margin-top: 3%;
+}
+.Produk-Photo{
+    width: 100%;
+    height: 55%;
+}
+.alert-flashdata{
+    font-size:100%;
+    padding-left:5%;
+    font-family:"Segoe UI";
+    color: #d54710;
+}
+@media(max-width:680px){
+ .banner2{
+    width: 100%;
+    text-align: center;
+}
+#konten1,#konten2,#konten3,#konten4,#konten5{
+    width: 100%;
+}
+.kontenstok{
+    height: 200px;
+}
+}
+@media(max-width:480px){
+#admin-container-header1{
+    margin-top: -11px;
+}
